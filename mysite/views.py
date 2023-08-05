@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, "verifyforzoho.html", {})
+    return render(request, "zohoverify/verifyforzoho.html", {})
